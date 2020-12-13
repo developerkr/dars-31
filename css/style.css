@@ -125,6 +125,7 @@ header p a:hover {
     margin-right: 70px;;
 }
 
+
 .text-wrapper1 p {
     font-size: 17px;
     line-height: 30px;
@@ -624,8 +625,70 @@ footer p{
     color: #19191B;
 }
 
+@media only screen and (max-width: 600px){
+    .earphone img{
+        display: none;
+        
+    }
+
+    .text-wrapper1 h1{
+       text-align: center;
+    }
+
+    .text-wrapper1 p{
+        font-size: 34px;
+        /*width: 700px;*/
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .price{
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .carts{
+       display: none;     
+
+    }
+    
+
+    .main-box-1{
+        display: block;
+    }
+}
 
 
+@media only screen and (max-width: 300px){
+    .links,
+    .links2{
+        width: 320px;
+        display: block;
+        margin-bottom: 20px;
+       
+    }
+
+    .img-box{
+        display: block;
+    }
+
+    .people{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .users-say h2,
+    .users-say p{
+        text-align: left;
+        width: auto;
+        
+    }
+
+}
 
 
 
